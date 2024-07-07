@@ -1,0 +1,79 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+.hero {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40px;
+	background-image: linear-gradient(#d659dd, #f86ee3);
+	color: #fff;
+}
+
+.cakes {
+	padding: 40px;
+}
+
+.cakes ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.cakes li {
+	margin-bottom: 20px;
+}
+
+.cakes img {
+	width: 30%;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 25px;
+}
+
+.cakes h3 {
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.cakes p {
+	font-size: 16px;
+	color: #e97de2;
+}
+
+.order-btn {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.order-success {
+	background-color: #dc77dc;
+	padding: 20px;
+	border: 1px solid #333;
+	border-radius: 10px;
+	display: none;
+}
+
+.order-success h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.order-success p {
+	font-size: 18px;
+	color: #666;
+}
+
